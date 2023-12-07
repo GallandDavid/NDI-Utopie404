@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(114, 209, 114);
+    border: 3px double rgb(14, 90, 14);
+}
+
+button{
+    display: flex;
+    height: 80%;
+    width: 15%;
+    background-color: rgb(88, 201, 88);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(122, 235, 122);
+}
