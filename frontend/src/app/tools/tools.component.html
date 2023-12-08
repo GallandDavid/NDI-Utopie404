@@ -3,4 +3,15 @@
     <button [routerLink]="['/informations']">Informations</button>
     <button [routerLink]="['/quiz']">Quizs</button>
     <button [routerLink]="['/glossaire']">Glossaire</button>
+    <button [routerLink]="['/noel']">Noël</button>
+    <button [routerLink]="['/ubisoft']">Ubisoft</button>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        Thèmes
+    </button>
+    <mat-menu class="mat-menu" #menu>
+        <button (click)="changeToLumineux()" class="button-menu" mat-menu-item>Lumineux</button>
+        <button (click)="changeToSombre()" class="button-menu" mat-menu-item>Sombre</button>
+        <button (click)="changeToVert()" class="button-menu" mat-menu-item>Vert</button>
+        <button (click)="changeToDaltonnien()" class="button-menu" mat-menu-item>Daltonnien</button>
+    </mat-menu>
 </div>

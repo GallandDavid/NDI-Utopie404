@@ -13,6 +13,8 @@ RUN npm install
 RUN npm install @angular-devkit/build-angular
 RUN npm install
 
+
+
 # Copy the rest of the code
 COPY /tsconfig.app.json /app
 COPY /tsconfig.json /app

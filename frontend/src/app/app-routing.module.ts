@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { InformationsComponent } from './informations/informations.component';
 import { QuizsComponent } from './quizs/quizs.component';
 import { GlossaireComponent } from './glossaire/glossaire.component';
+import { NoelComponent } from './noel/noel.component';
+import { UbisoftComponent } from './ubisoft/ubisoft.component';
 
 const routes: Routes = [
   {
@@ -21,7 +23,15 @@ const routes: Routes = [
   {
     path: 'glossaire',
     component: GlossaireComponent,
-  }
+  },
+  {
+    path: 'noel',
+    component: NoelComponent,
+  },
+  {
+    path: 'ubisoft',
+    component: UbisoftComponent,
+  },
 ];
 
 @NgModule({
